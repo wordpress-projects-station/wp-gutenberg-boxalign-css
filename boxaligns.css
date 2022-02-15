@@ -1,0 +1,31 @@
+
+    /*rewrite aligns*/
+
+    .site-main .alignfull, *.alignfull, [data-align=full]{
+        width:100vw !important;
+        max-width: 100% !important;
+        margin-left:0 !important;
+        margin-right:0 !important;
+    }
+    .site-main .alignwide, *.alignwide, [data-align=wide] {
+        max-width:1100px !important;
+        margin-left:auto  !important;
+        margin-right:auto  !important;
+    }
+    .site-main .aligncenter, *.aligncenter, [data-align=center] {
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    [data-align=full]{
+        border-left:1px dotted cyan;
+        border-right:1px dotted cyan;
+    }
+    [data-align=wide]{
+        border-left:1px dotted fuchsia;
+        border-right:1px dotted fuchsia;
+    }
+    [data-align=center]{
+        border-left:1px dotted lime;
+        border-right:1px dotted lime;
+    }
